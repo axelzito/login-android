@@ -1,4 +1,4 @@
-package com.example.aluno.myapp.model;
+package com.example.axelmiguez.login_android.model;
 
 import java.io.Serializable;
 

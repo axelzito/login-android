@@ -1,9 +1,9 @@
-package com.example.aluno.myapp.servico;
+package com.example.axelmiguez.login_android.servico;
 
 import android.content.Context;
 
-import com.example.richielybatista.loginauth.R;
-import com.example.richielybatista.loginauth.model.UserModel;
+import com.example.axelmiguez.login_android.R;
+import com.example.axelmiguez.login_android.model.UserModel;
 
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONException;

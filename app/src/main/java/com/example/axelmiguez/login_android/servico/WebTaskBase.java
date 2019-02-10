@@ -1,11 +1,11 @@
-package com.example.aluno.myapp.servico;
+package com.example.axelmiguez.login_android.servico;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 
-import com.example.richielybatista.loginauth.R;
+import com.example.axelmiguez.login_android.R;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;

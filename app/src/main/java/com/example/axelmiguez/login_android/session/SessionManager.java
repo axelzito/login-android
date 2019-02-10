@@ -1,10 +1,10 @@
-package com.example.aluno.myapp.session;
+package com.example.axelmiguez.login_android.session;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.example.aluno.myapp.LoginActivity;
+import com.example.axelmiguez.login_android.LoginActivity;
 
 import java.util.Date;
 import java.util.HashMap;

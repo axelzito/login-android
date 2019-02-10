@@ -1,13 +1,13 @@
-package com.example.aluno.myapp;
+package com.example.axelmiguez.login_android;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.Intent;
-import android.os.Build;
-import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Build;
+import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
@@ -18,9 +18,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.aluno.myapp.model.UserModel;
-import com.example.aluno.myapp.servico.LoginTask;
-import com.example.aluno.myapp.session.SessionManager;
+import com.example.axelmiguez.login_android.model.UserModel;
+import com.example.axelmiguez.login_android.servico.LoginTask;
+import com.example.axelmiguez.login_android.session.SessionManager;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.NoSubscriberEvent;
@@ -30,7 +30,7 @@ import org.greenrobot.eventbus.ThreadMode;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity{
 
     private LoginTask mAuthTask = null;
     private String email = "";
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_logado);
+        setContentView(R.layout.activity_login);
 
         sessao = new SessionManager(getApplicationContext());
 
